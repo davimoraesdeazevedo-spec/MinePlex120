@@ -1,0 +1,3 @@
+import discord.py
+discord.py
+python-dotenv

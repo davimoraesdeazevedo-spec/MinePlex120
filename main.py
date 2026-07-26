@@ -9,7 +9,10 @@ import re
 # CONFIGURAÇÃO
 # ==========================
 
-TOKEN = "MTUyOTMzMjAxMDYzNDU3NTg3Mg.GeY8Bq.FtvfmVpxSeo_Gxed2udAltXOoylUfPmnUdDTMc"
+import os
+
+TOKEN = os.getenv("TOKEN")
+
 GUILD_ID = 1527055736561995806
 
 intents = discord.Intents.default()
